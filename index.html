@@ -22,7 +22,7 @@ form.addEventListener('submit', async (e) => {
 e.preventDefault();
 const a = document.getElementById('num1').value;
 const b = document.getElementById('num2').value;
-const apiUrl = 'https://e5uqyrtk0d.execute-api.ap-south-1.amazonaws.com/myprod11';
+const apiUrl = 'https://e5uqyrtk0d.execute-api.ap-south-1.amazonaws.com/myprod11/add';
 try {
 const response = await fetch(apiUrl, {
 method: 'POST',
